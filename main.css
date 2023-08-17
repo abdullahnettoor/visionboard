@@ -51,17 +51,21 @@ img {
     transition: 500ms ease-in-out;
 }
 
-.large-box:hover, .wide-box:hover {
+.large-box:hover, .wide-box:hover, .small-box:hover {
     transition: 500ms ease-in-out;
     box-shadow: 0px 24px 32px 0px rgba(27, 23, 45, 0.743);
     transform: scale(1.5);
 }
 
+.wide-box:hover {
+    height: 16rem;
+    width: 16rem;
+    transform: scale(1.5);
+}
+
 .small-box:hover {
-    transition: 500ms ease-in-out;
     aspect-ratio: 1/1;
     transform: scale(2.5);
-    box-shadow: 0px 24px 32px 0px rgba(27, 23, 45, 0.743);
     border-radius: 0.75rem;
 }
 
